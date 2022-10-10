@@ -18,6 +18,11 @@ struct K {
         let accessTokenSecret = "QdLlCgzy7nNq4inAgLXljWQWCHoI0En8aQcrcqX2uYySr"
     }
     
+    struct Tweet {
+        let createTweetUrl = "https://api.twitter.com/1.1/favorites/create.json"
+        let destroyTweetUrl = "https://api.twitter.com/1.1/favorites/destroy.json"
+    }
+    
     struct NavIdentifiers {
         let loginToHome = "LoginToHome"
     }
